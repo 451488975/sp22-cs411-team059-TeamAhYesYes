@@ -1,0 +1,37 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Pet Search Result
+{% endblock %}
+
+{% block content %}
+    {% if pet_list %}
+        <h2>Results</h2>
+        <section>
+            <table>
+                <tr>
+                    <th>Type</th>
+                    <th>Color</th>
+                    <th>Breed</th>
+                    <th>Age (in days)</th>
+                    <th>Shop</th>
+                    <th>Customer</th>
+                </tr>
+                {% for pet in pet_list %}
+                    <tr>
+                        <td>{{ pet.type }}</td>
+                        <td>{{ pet.color }}</td>
+                        <td><a href="{{ pet.get_absolute_url }}">{{ pet.breed }}</a></td>
+                        <td>{{ pet.age }}</td>
+                        <td><a href="{{ pet.shop.get_absolute_url }}">{{ pet.shop }}</a></td>
+                        <td>{{ pet.customer }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+        </section>
+    {% else %}
+        <div class="no-post">
+            Nothing found!
+        </div>
+    {% endif %}
+{% endblock %}

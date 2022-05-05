@@ -1,0 +1,26 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Error Deleting Order
+{% endblock %}
+
+{% block content %}
+    <div>
+        <h2>Error Deleting Order</h2>
+        <p>
+            You may not delete order {{ porder.order_id }}. This
+            order is currently has the following
+            items:
+        </p>
+
+        <ul>
+        {% for contain in contains %}
+            <li><a href="{{ contain.item.get_absolute_url }}">{{ contain.item }}</a></li>
+        {% endfor %}
+        </ul>
+
+        <p>
+            Return to <a href="{% url 'petshop_order_list_url' %}">Order List</a>.
+        </p>
+    </div>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Pet List
+{% endblock %}
+
+{% block create_button %}
+    {% if perms.petshop.add_pet %}
+        <a
+            href="{% url 'petshop_pet_create_url' %}"
+            class="button button-primary">
+            Create New Pet
+        </a>
+    {% endif %}
+{% endblock %}
+
+{% block org_content %}
+    <h2>Pet List</h2>
+    <form action="{% url 'petshop_pet_search_url' %}" method='get'>
+        <input type='text' name='pet_search'>
+        <button type='submit'>Search</button>
+    </form>
+    <ul>
+    {% for pet in pet_list %}
+        <li>
+            <a href="{{ pet.get_absolute_url }}">
+                {{ pet }}
+            </a>
+        </li>
+    {% empty %}
+        <li><em>There are currently no pets available.</em></li>
+    {% endfor %}
+    </ul>
+{% endblock %}

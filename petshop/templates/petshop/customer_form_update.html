@@ -1,0 +1,15 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Update Customer
+{% endblock %}
+
+{% block content %}
+    <form
+        action="{{ customer.get_update_url }}"
+        method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="button button-primary">Update Customer</button>
+    </form>
+{% endblock %}

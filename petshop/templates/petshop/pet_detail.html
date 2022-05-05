@@ -1,0 +1,61 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Pet - {{ pet }}
+{% endblock %}
+
+{% block content %}
+    <article>
+        <div class="row">
+            <div class="offset-by-two eight columns">
+                <h2>{{ pet }}</h2>
+                <ul class="inline">
+                {% if perms.petshop.change_pet %}
+                    <li>
+                        <a href="{{ pet.get_update_url }}"
+                           class="button button-primary">
+                            Edit Pet
+                        </a>
+                    </li>
+                {% endif %}
+                {% if perms.petshop.delete_pet %}
+                    <li>
+                        <a href="{{ pet.get_delete_url }}"
+                           class="button button-primary">
+                            Delete Pet
+                        </a>
+                    </li>
+                {% endif %}
+                </ul>
+                <section>
+                    <table>
+                        <tr>
+                            <th>Shop:</th>
+                            <td><a href="{{ shop.get_absolute_url }}">{{ shop }}</a></td>
+                        </tr>
+                        <tr>
+                            <th>Customer Name:</th>
+                            <td>{{ customer }}</td>
+                        </tr>
+                        <tr>
+                            <th>Type:</th>
+                            <td>{{ pet.type }}</td>
+                        </tr>
+                        <tr>
+                            <th>Color:</th>
+                            <td>{{ pet.color }}</td>
+                        </tr>
+                        <tr>
+                            <th>Breed:</th>
+                            <td>{{ pet.breed }}</td>
+                        </tr>
+                        <tr>
+                            <th>Age:</th>
+                            <td>{{ pet.age }} days</td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+        </div>
+    </article>
+{% endblock %}

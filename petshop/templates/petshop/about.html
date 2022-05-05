@@ -1,0 +1,41 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    About
+{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="offset-by-two eight columns">
+        {% if perms.petshop.add_contains %}
+            <ul class="inline">
+                <li>
+                    <a href="{% url 'query1' %}"
+                       class="button button-primary">
+                        Advanced Query 1
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'query2' %}"
+                       class="button button-primary">
+                        Advanced Query 2
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'sp' %}"
+                       class="button button-primary">
+                        Refresh Discount
+                    </a>
+                </li>
+            </ul>
+        {% endif %}
+            <h2>About</h2>
+            <p>
+                The Petshop Information System is meant integrate information of pet shops in Urbana-Champaign
+                area. It is a Web-based demonstration application for pet shop management using a petshop
+                information database. This application is implemented using
+                <a href="https://www.djangoproject.com">Django</a>.
+            </p>
+        </div>
+    </div>
+{% endblock %}

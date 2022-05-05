@@ -1,0 +1,15 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Add Supply Item to Order
+{% endblock %}
+
+{% block content %}
+    <form
+        action="{% url 'petshop_contains_create_url'%}"
+        method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="button button-primary">Add Supply Item to Order</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Delete Supply Item
+{% endblock %}
+
+{% block content %}
+    <form
+        action="{{ item.get_delete_url }}"
+        method="post">
+        {% csrf_token %}
+        <p>
+            Are you sure that you want to delete
+            supply item {{ item }}?
+        </p>
+        <a href="{{ item.get_absolute_url }}"
+           class="button button-primary">
+            Cancel
+        </a>
+        <button type="submit" class="button button-primary">Delete Supply Item</button>
+    </form>
+{% endblock %}

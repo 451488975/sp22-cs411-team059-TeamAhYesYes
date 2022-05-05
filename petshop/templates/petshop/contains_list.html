@@ -1,0 +1,30 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Contains List
+{% endblock %}
+
+{% block create_button %}
+    {% if perms.petshop.add_contains %}
+        <a
+            href="{% url 'petshop_contains_create_url' %}"
+            class="button button-primary">
+            Create New Contains
+        </a>
+    {% endif %}
+{% endblock %}
+
+{% block org_content %}
+    <h2>Contains List</h2>
+    <ul>
+    {% for contains in contains_list %}
+        <li>
+            <a href="{{ contains.get_absolute_url }}">
+                {{ contains }}
+            </a>
+        </li>
+    {% empty %}
+        <li><em>There are currently no contains available.</em></li>
+    {% endfor %}
+    </ul>
+{% endblock %}

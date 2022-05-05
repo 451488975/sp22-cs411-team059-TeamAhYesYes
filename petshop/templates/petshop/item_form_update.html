@@ -1,0 +1,15 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Update Supply Item
+{% endblock %}
+
+{% block content %}
+    <form
+        action="{{ item.get_update_url }}"
+        method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="button button-primary">Update Supply Item</button>
+    </form>
+{% endblock %}

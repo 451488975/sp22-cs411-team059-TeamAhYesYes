@@ -1,0 +1,30 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Order List
+{% endblock %}
+
+{% block create_button %}
+    {% if perms.petshop.add_porder %}
+        <a
+            href="{% url 'petshop_order_create_url' %}"
+            class="button button-primary">
+            Create New Order
+        </a>
+    {% endif %}
+{% endblock %}
+
+{% block org_content %}
+    <h2>Order List</h2>
+    <ul>
+    {% for porder in porder_list %}
+        <li>
+            <a href="{{ porder.get_absolute_url }}">
+                {{ porder }}
+            </a>
+        </li>
+    {% empty %}
+        <li><em>There are currently no orders available.</em></li>
+    {% endfor %}
+    </ul>
+{% endblock %}

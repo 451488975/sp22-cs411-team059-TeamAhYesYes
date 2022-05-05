@@ -1,0 +1,15 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Create Pet
+{% endblock %}
+
+{% block content %}
+    <form
+        action="{% url 'petshop_pet_create_url'%}"
+        method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="button button-primary">Create Pet</button>
+    </form>
+{% endblock %}

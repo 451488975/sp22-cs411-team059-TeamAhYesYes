@@ -1,0 +1,49 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Contains - {{ contains.contains_id }}
+{% endblock %}
+
+{% block content %}
+    <article>
+        <div class="row">
+            <div class="offset-by-two eight columns">
+                <h2>{{ contains }}</h2>
+                <ul class="inline">
+                {% if perms.petshop.change_contains %}
+                    <li>
+                        <a href="{{ contains.get_update_url }}"
+                           class="button button-primary">
+                            Edit Contains
+                        </a>
+                    </li>
+                {% endif %}
+                {% if perms.petshop.delete_contains %}
+                    <li>
+                        <a href="{{ contains.get_delete_url }}"
+                           class="button button-primary">
+                            Delete Contains
+                        </a>
+                    </li>
+                {% endif %}
+                </ul>
+                <section>
+                    <table>
+                        <tr>
+                            <th>Item:</th>
+                            <td><a href="{{ contains.item.get_absolute_url }}">{{ contains.item }}</a></td>
+                        </tr>
+                        <tr>
+                            <th>Order:</th>
+                            <td><a href="{{ contains.order.get_absolute_url }}">{{ contains.order }}</a></td>
+                        </tr>
+                        <tr>
+                            <th>Quantity:</th>
+                            <td>{{ contains.quantity }}</td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+        </div>
+    </article>
+{% endblock %}

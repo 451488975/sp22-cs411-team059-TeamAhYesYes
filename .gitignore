@@ -1,0 +1,7 @@
+*.pyc
+*~
+__pycache__
+/.idea
+.ipynb_checkpoints
+/static
+.DS_Store

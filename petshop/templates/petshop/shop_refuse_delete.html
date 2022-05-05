@@ -1,0 +1,26 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Error Deleting Shop
+{% endblock %}
+
+{% block content %}
+    <div>
+        <h2>Error Deleting Shop</h2>
+        {% if left == 1 %}
+        <p>
+            You may not delete shop {{ shop }}. This
+            shop currently has pets.
+        </p>
+        {% else %}
+        <p>
+            You may not delete shop {{ shop }}. This
+            shop currently has supply items.
+        </p>
+        {% endif %}
+
+        <p>
+            Return to <a href="{% url 'petshop_shop_list_url' %}">Shop List</a>.
+        </p>
+    </div>
+{% endblock %}

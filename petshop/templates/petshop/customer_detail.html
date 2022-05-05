@@ -1,0 +1,79 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Customer - {{ customer }}
+{% endblock %}
+
+{% block content %}
+    <article>
+        <div class="row">
+            <div class="offset-by-two eight columns">
+                <h2>{{ customer }}</h2>
+                <ul class="inline">
+                {% if perms.petshop.change_customer %}
+                    <li>
+                        <a
+                            href="{{ customer.get_update_url }}"
+                            class="button button-primary">
+                            Edit Customer
+                        </a>
+                    </li>
+                {% endif %}
+                {% if perms.petshop.delete_customer %}
+                    <li>
+                        <a
+                            href="{{ customer.get_delete_url }}"
+                            class="button button-primary">
+                            Delete Customer
+                        </a>
+                    </li>
+                {% endif %}
+                </ul>
+                <section>
+                    <table>
+                        <tr>
+                            <th>First Name:</th>
+                            <td>{{ customer.first_name }}</td>
+                        </tr>
+                        <tr>
+                            <th>Last Name:</th>
+                            <td>{{ customer.last_name }}</td>
+                        </tr>
+                        <tr>
+                            <th>Username:</th>
+                            <td>{{ customer.username }}</td>
+                        </tr>
+                        <tr>
+                            <th>Email:</th>
+                            <td>{{ customer.email }}</td>
+                        </tr>
+                        <tr>
+                            <th>Phone Number:</th>
+                            <td>{{ customer.phone_number }}</td>
+                        </tr>
+                        <tr>
+                            <th>Discount:</th>
+                            <td>{{ customer.discount }}</td>
+                        </tr>
+                        <tr>
+                            <th>Recommender Name:</th>
+                            <td>{{ customer.recommender_name }}</td>
+                        </tr>
+                    </table>
+                </section>
+                <section>
+                    <h3>Orders</h3>
+                    <ul>
+                    {% for order in order_list %}
+                        <li>
+                            <a href="{{ order.get_absolute_url }}">{{ order }}</a>
+                        </li>
+                    {% empty %}
+                        <li><em>There are currently no orders for this customer.</em></li>
+                    {% endfor %}
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </article>
+{% endblock %}

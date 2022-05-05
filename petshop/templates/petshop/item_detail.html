@@ -1,0 +1,55 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Supply Item - {{ item }}
+{% endblock %}
+
+{% block content %}
+    <article>
+        <div class="row">
+            <div class="offset-by-two eight columns">
+                <h2>{{ item }}</h2>
+                <ul class="inline">
+                {% if perms.petshop.change_item %}
+                    <li>
+                        <a
+                            href="{{ item.get_update_url }}"
+                            class="button button-primary">
+                            Edit Supply Item
+                        </a>
+                    </li>
+                {% endif %}
+                {% if perms.petshop.delete_item %}
+                    <li>
+                        <a
+                            href="{{ item.get_delete_url }}"
+                            class="button button-primary">
+                            Delete Item
+                        </a>
+                    </li>
+                {% endif %}
+                </ul>
+                <section>
+                    <table>
+                        <tr>
+                            <th>Supply Item Name:</th>
+                            <td>{{ item.item_name }}</td>
+                        </tr>
+                        <tr>
+                            <th>Shop:</th>
+                            <td><a href="{{ shop.get_absolute_url }}">{{ shop }}</a></td>
+                        </tr>
+                        <tr>
+                            <th>Item Type:</th>
+                            <td>{{ item.type }}</td>
+                        </tr>
+                        <tr>
+                            <th>Item Price:</th>
+                            <td>{{ item.price|floatformat:2 }}</td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+        </div>
+    </article>
+{% endblock %}

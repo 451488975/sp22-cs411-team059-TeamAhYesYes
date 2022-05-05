@@ -1,0 +1,880 @@
+,product_name,product_category,price_in_usd
+0,Vietnam small fish equipment,Equipment,94.809
+1,India small cat toys,Toys,120.952
+2,India small hamster toys,Toys,106.33999999999999
+3,India large dog snack,Snack,241.267
+4,India large dog supplements,Supplements,133.679
+5,India large cat bedding,Bedding,51.596999999999994
+6,India extra small dog toys,Toys,175.74699999999999
+7,India large cat bedding,Bedding,170.01399999999998
+8,Belgium small cat supplements,Supplements,178.113
+9,India medium dog medicine,Medicine,248.066
+10,India extra small dog snack,Snack,188.227
+11,India extra small dog supplements,Supplements,127.11399999999999
+12,India medium dog housing,Housing,211.471
+13,India large cat food,Food,60.111999999999995
+14,India medium cat supplements,Supplements,171.6
+15,Singapore small dog equipment,Equipment,173.069
+16,Belgium medium cat snack,Snack,45.227
+17,India extra large cat equipment,Equipment,109.44699999999999
+18,Belgium medium cat food,Food,153.62099999999998
+19,India extra large cat food,Food,10.92
+20,India medium dog housing,Housing,195.975
+21,India large cat clothes,Clothes,233.23299999999998
+22,India large dog accessory,Accessory,134.004
+23,India extra large cat food,Food,108.64099999999999
+24,India extra large fish medicine,Medicine,22.009
+25,India large dog equipment,Equipment,147.641
+26,India extra small cat accessory,Accessory,247.50699999999998
+27,India extra large cat food,Food,233.46699999999998
+28,India extra large dog housing,Housing,178.906
+29,India extra large dog supplements,Supplements,67.574
+30,Turkey small dog medicine,Medicine,137.527
+31,Singapore medium bird equipment,Equipment,246.67499999999998
+32,India extra small cat snack,Snack,122.46
+33,India extra small cat clothes,Clothes,88.15299999999999
+34,Turkey medium cat snack,Snack,235.612
+35,India medium cat medicine,Medicine,195.611
+36,India medium dog accessory,Accessory,79.98899999999999
+37,Turkey medium bird toys,Toys,242.177
+38,India large bird bedding,Bedding,142.45399999999998
+39,USA small dog equipment,Equipment,138.684
+40,India extra large cat snack,Snack,128.765
+41,India small cat bedding,Bedding,84.032
+42,India medium dog accessory,Accessory,19.357
+43,India extra large dog food,Food,86.788
+44,India large dog food,Food,11.453
+45,USA medium cat snack,Snack,92.417
+46,India medium hamster grooming,Grooming,69.28999999999999
+47,Singapore medium cat snack,Snack,192.712
+48,USA medium cat toys,Toys,174.226
+49,India extra small dog equipment,Equipment,184.70399999999998
+50,India small cat grooming,Grooming,12.272
+51,India extra large dog clothes,Clothes,76.03699999999999
+52,India medium cat clothes,Clothes,221.143
+53,India extra large cat food,Food,61.385999999999996
+54,Singapore small dog equipment,Equipment,88.93299999999999
+55,Singapore medium cat toys,Toys,178.88
+56,Turkey medium bird equipment,Equipment,204.048
+57,Vietnam small fish toys,Toys,168.857
+58,India large cat clothes,Clothes,171.275
+59,India extra large cat snack,Snack,182.39
+60,Belgium medium cat equipment,Equipment,176.254
+61,India large dog housing,Housing,109.798
+62,India extra large cat clothes,Clothes,80.106
+63,Sri Lanka medium bird equipment,Equipment,178.386
+64,USA small dog equipment,Equipment,219.68699999999998
+65,India medium rabbit housing,Housing,183.42999999999998
+66,India extra large dog supplements,Supplements,241.41
+67,India large cat housing,Housing,75.452
+68,Singapore small dog medicine,Medicine,100.49
+69,India extra large hamster supplements,Supplements,114.062
+70,India extra small dog housing,Housing,4.758
+71,USA small fish toys,Toys,215.30599999999998
+72,India small dog grooming,Grooming,26.676
+73,India extra small cat bedding,Bedding,28.456999999999997
+74,India large bird grooming,Grooming,203.21599999999998
+75,India medium dog accessory,Accessory,86.164
+76,India extra small cat toys,Toys,156.325
+77,India extra large rabbit medicine,Medicine,161.343
+78,Singapore medium bird equipment,Equipment,93.106
+79,Singapore small dog toys,Toys,43.861999999999995
+80,India medium fish food,Food,216.034
+81,India medium cat accessory,Accessory,239.564
+82,Belgium small dog toys,Toys,107.107
+83,India extra small dog housing,Housing,33.617999999999995
+84,India large bird snack,Snack,81.96499999999999
+85,India small dog supplements,Supplements,212.54999999999998
+86,India extra small cat supplements,Supplements,186.03
+87,India extra large cat bedding,Bedding,229.125
+88,India small dog clothes,Clothes,107.354
+89,India large hamster equipment,Equipment,49.711999999999996
+90,India medium cat housing,Housing,49.907
+91,India extra small cat snack,Snack,74.191
+92,India extra large cat grooming,Grooming,118.053
+93,Turkey small dog snack,Snack,88.985
+94,India medium dog supplements,Supplements,62.452
+95,India medium dog clothes,Clothes,133.34099999999998
+96,India medium cat medicine,Medicine,20.098
+97,India extra small dog clothes,Clothes,3.328
+98,India large cat equipment,Equipment,181.441
+99,Germany small dog toys,Toys,40.312999999999995
+100,Singapore medium cat toys,Toys,108.095
+101,India large cat accessory,Accessory,97.461
+102,Singapore medium cat equipment,Equipment,85.70899999999999
+103,Germany medium cat equipment,Equipment,162.136
+104,India extra large dog toys,Toys,201.552
+105,Turkey medium cat toys,Toys,239.96699999999998
+106,India extra large cat medicine,Medicine,26.506999999999998
+107,Singapore extra small cat supplements,Supplements,251.74499999999998
+108,Belgium small dog food,Food,35.138999999999996
+109,Turkey medium bird toys,Toys,6.266
+110,USA medium cat equipment,Equipment,228.44899999999998
+111,Belgium medium bird equipment,Equipment,54.742999999999995
+112,India large dog clothes,Clothes,211.861
+113,India medium dog snack,Snack,158.444
+114,India extra large dog bedding,Bedding,163.501
+115,India large fish clothes,Clothes,165.35999999999999
+116,Turkey extra large dog medicine,Medicine,210.07999999999998
+117,USA medium cat equipment,Equipment,21.826999999999998
+118,India small cat accessory,Accessory,32.434999999999995
+119,India extra small dog food,Food,197.27499999999998
+120,India small cat housing,Housing,132.21
+121,India small fish food,Food,108.342
+122,India extra large cat medicine,Medicine,98.176
+123,India small dog snack,Snack,206.141
+124,India medium cat equipment,Equipment,134.40699999999998
+125,USA small dog snack,Snack,86.086
+126,India medium cat equipment,Equipment,160.745
+127,Singapore medium bird toys,Toys,35.061
+128,Turkey medium cat snack,Snack,58.824999999999996
+129,Belgium medium cat medicine,Medicine,194.623
+130,India medium rabbit food,Food,119.496
+131,Singapore small fish equipment,Equipment,38.766
+132,India extra small cat medicine,Medicine,139.48999999999998
+133,India small dog grooming,Grooming,118.235
+134,Turkey small dog snack,Snack,162.227
+135,Belgium medium cat snack,Snack,14.248
+136,Belgium small dog toys,Toys,221.416
+137,Singapore small dog snack,Snack,59.995
+138,India large dog medicine,Medicine,221.767
+139,Turkey small dog food,Food,58.903
+140,India large cat housing,Housing,212.82299999999998
+141,Germany small fish equipment,Equipment,152.906
+142,Germany small dog snack,Snack,3.9
+143,Turkey small dog toys,Toys,188.838
+144,Germany medium cat toys,Toys,169.286
+145,India extra small rabbit grooming,Grooming,192.283
+146,Belgium medium cat toys,Toys,111.53999999999999
+147,Turkey medium bird snack,Snack,215.553
+148,Singapore small dog toys,Toys,159.13299999999998
+149,India extra large fish housing,Housing,40.911
+150,India large fish toys,Toys,96.77199999999999
+151,Sri Lanka medium bird snack,Snack,158.63899999999998
+152,India small cat clothes,Clothes,218.608
+153,India small cat grooming,Grooming,23.698999999999998
+154,India large dog supplements,Supplements,57.160999999999994
+155,Turkey medium cat snack,Snack,124.527
+156,Germany small dog snack,Snack,52.532999999999994
+157,India extra large cat bedding,Bedding,33.436
+158,USA medium cat equipment,Equipment,21.918
+159,India extra large cat equipment,Equipment,175.825
+160,India large dog grooming,Grooming,47.32
+161,Singapore medium cat medicine,Medicine,163.65699999999998
+162,India small cat medicine,Medicine,79.339
+163,India extra small cat housing,Housing,95.524
+164,Singapore medium cat toys,Toys,51.181
+165,India extra small cat toys,Toys,57.434
+166,India small cat medicine,Medicine,184.821
+167,USA medium bird snack,Snack,157.15699999999998
+168,Turkey medium cat toys,Toys,56.952999999999996
+169,India large dog equipment,Equipment,187.655
+170,India large cat snack,Snack,224.731
+171,India extra large dog snack,Snack,214.045
+172,Singapore medium bird snack,Snack,125.151
+173,Sri Lanka medium bird toys,Toys,86.58
+174,India medium dog toys,Toys,232.934
+175,USA small dog equipment,Equipment,27.078999999999997
+176,USA medium dog food,Food,33.722
+177,India extra large bird equipment,Equipment,241.462
+178,Belgium small dog snack,Snack,20.968999999999998
+179,India medium cat supplements,Supplements,134.83599999999998
+180,India extra large hamster clothes,Clothes,237.69199999999998
+181,India large cat supplements,Supplements,249.63899999999998
+182,USA small fish equipment,Equipment,146.666
+183,Singapore medium cat snack,Snack,165.334
+184,Germany medium bird snack,Snack,105.10499999999999
+185,Germany medium cat medicine,Medicine,1.3
+186,India small dog supplements,Supplements,61.385999999999996
+187,India medium cat clothes,Clothes,43.900999999999996
+188,India extra small rabbit toys,Toys,126.19099999999999
+189,India extra small bird medicine,Medicine,111.904
+190,India small bird food,Food,14.417
+191,India large cat snack,Snack,24.089
+192,India extra small cat grooming,Grooming,211.224
+193,India medium dog accessory,Accessory,40.794
+194,India medium cat supplements,Supplements,117.96199999999999
+195,India medium cat food,Food,148.447
+196,Germany small dog medicine,Medicine,24.270999999999997
+197,Turkey small dog toys,Toys,246.35
+198,India extra small dog clothes,Clothes,22.113
+199,India small fish supplements,Supplements,36.114
+200,India small bird toys,Toys,50.400999999999996
+201,India extra small hamster equipment,Equipment,13.663
+202,Belgium medium cat toys,Toys,46.916999999999994
+203,India extra small dog grooming,Grooming,134.953
+204,USA small dog toys,Toys,222.01399999999998
+205,India medium dog equipment,Equipment,89.648
+206,India medium dog snack,Snack,221.494
+207,USA small dog toys,Toys,49.543
+208,USA medium cat toys,Toys,14.806999999999999
+209,India large dog snack,Snack,62.477999999999994
+210,Turkey small dog toys,Toys,64.987
+211,Vietnam small fish toys,Toys,195.338
+212,India extra large cat housing,Housing,10.647
+213,India small cat grooming,Grooming,121.49799999999999
+214,India large dog supplements,Supplements,31.863
+215,India extra large dog grooming,Grooming,135.59
+216,India extra small dog clothes,Clothes,59.098
+217,India large cat medicine,Medicine,48.035
+218,India small dog clothes,Clothes,245.518
+219,India small dog snack,Snack,36.166
+220,India medium dog bedding,Bedding,162.279
+221,India medium cat toys,Toys,129.025
+222,India small fish accessory,Accessory,238.16
+223,Turkey small fish equipment,Equipment,227.17499999999998
+224,India extra large cat grooming,Grooming,53.976
+225,USA small dog medicine,Medicine,96.083
+226,Vietnam small fish snack,Snack,67.91199999999999
+227,Belgium medium cat supplements,Supplements,153.998
+228,Belgium medium cat equipment,Equipment,226.785
+229,India medium hamster bedding,Bedding,84.175
+230,USA medium cat supplements,Supplements,129.519
+231,India extra large fish equipment,Equipment,201.149
+232,USA medium dog supplements,Supplements,207.96099999999998
+233,India large bird medicine,Medicine,167.219
+234,USA small dog equipment,Equipment,168.194
+235,India extra large dog accessory,Accessory,97.435
+236,Belgium small dog equipment,Equipment,244.41299999999998
+237,India extra large dog bedding,Bedding,77.545
+238,USA medium cat food,Food,110.75999999999999
+239,India extra small dog equipment,Equipment,51.285
+240,Singapore medium cat snack,Snack,55.9
+241,India small rabbit housing,Housing,142.688
+242,India extra small cat food,Food,158.756
+243,Belgium medium cat snack,Snack,188.071
+244,India medium bird toys,Toys,198.029
+245,India large cat food,Food,192.244
+246,Singapore small dog snack,Snack,169.988
+247,Germany small dog toys,Toys,173.576
+248,Turkey small dog equipment,Equipment,215.73499999999999
+249,India small cat accessory,Accessory,14.898
+250,India extra small dog food,Food,176.488
+251,India medium dog snack,Snack,109.551
+252,India extra small cat supplements,Supplements,106.535
+253,India small bird housing,Housing,222.261
+254,India medium dog grooming,Grooming,71.422
+255,Belgium small dog snack,Snack,168.46699999999998
+256,Turkey medium cat equipment,Equipment,26.948999999999998
+257,Turkey medium cat snack,Snack,24.427
+258,Turkey medium bird toys,Toys,41.339999999999996
+259,Turkey medium cat food,Food,143.0
+260,India extra large cat toys,Toys,194.73999999999998
+261,India large cat toys,Toys,163.397
+262,Sri Lanka medium bird equipment,Equipment,241.37099999999998
+263,India large dog equipment,Equipment,107.15899999999999
+264,Japan medium bird equipment,Equipment,94.47099999999999
+265,India small dog snack,Snack,149.162
+266,India medium dog food,Food,81.679
+267,India extra small dog medicine,Medicine,85.60499999999999
+268,India large dog medicine,Medicine,73.957
+269,Singapore small dog food,Food,97.82499999999999
+270,Germany small dog equipment,Equipment,174.512
+271,India medium cat bedding,Bedding,136.058
+272,Turkey small dog toys,Toys,143.66299999999998
+273,India extra small rabbit clothes,Clothes,239.96699999999998
+274,Germany medium cat equipment,Equipment,29.366999999999997
+275,Germany small dog toys,Toys,215.202
+276,India small cat snack,Snack,168.31099999999998
+277,India small dog supplements,Supplements,163.696
+278,Germany medium cat toys,Toys,71.26599999999999
+279,Belgium small fish equipment,Equipment,26.468
+280,USA small dog snack,Snack,130.468
+281,India large cat accessory,Accessory,48.399
+282,Sri Lanka medium bird toys,Toys,210.06699999999998
+283,Belgium medium bird snack,Snack,20.15
+284,Singapore medium cat equipment,Equipment,65.50699999999999
+285,Turkey medium cat supplements,Supplements,20.644
+286,India small dog medicine,Medicine,107.01599999999999
+287,India medium cat grooming,Grooming,180.31
+288,India extra large cat accessory,Accessory,5.888999999999999
+289,India extra large cat snack,Snack,161.04399999999998
+290,India large cat housing,Housing,234.351
+291,India medium dog supplements,Supplements,78.91
+292,India small dog accessory,Accessory,107.666
+293,Turkey medium cat medicine,Medicine,12.545
+294,India medium dog snack,Snack,16.172
+295,USA medium cat food,Food,3.965
+296,India small cat toys,Toys,170.885
+297,India extra large rabbit snack,Snack,170.755
+298,Singapore medium cat supplements,Supplements,41.509
+299,India medium bird clothes,Clothes,181.10299999999998
+300,Belgium small dog medicine,Medicine,216.06
+301,India large dog housing,Housing,161.382
+302,India small cat snack,Snack,160.40699999999998
+303,Germany large dog supplements,Supplements,69.654
+304,India extra large dog accessory,Accessory,230.373
+305,India extra large dog grooming,Grooming,228.29299999999998
+306,India medium dog equipment,Equipment,162.10999999999999
+307,Germany medium cat toys,Toys,163.761
+308,India large cat clothes,Clothes,134.602
+309,India large dog bedding,Bedding,160.82299999999998
+310,Germany small dog supplements,Supplements,83.018
+311,Singapore small dog food,Food,247.117
+312,India large dog toys,Toys,114.95899999999999
+313,USA medium cat medicine,Medicine,183.846
+314,India medium cat accessory,Accessory,46.059
+315,India extra large bird supplements,Supplements,163.969
+316,India medium cat bedding,Bedding,72.085
+317,India large dog equipment,Equipment,125.372
+318,India medium dog toys,Toys,247.832
+319,Singapore extra small dog supplements,Supplements,46.214999999999996
+320,Germany medium cat snack,Snack,28.898999999999997
+321,India extra large dog food,Food,222.50799999999998
+322,Singapore medium cat snack,Snack,139.334
+323,Germany medium cat equipment,Equipment,74.854
+324,India large hamster snack,Snack,110.214
+325,USA medium cat snack,Snack,211.315
+326,Turkey small fish toys,Toys,166.01
+327,India extra large dog supplements,Supplements,106.23599999999999
+328,India extra small cat snack,Snack,21.918
+329,USA medium cat equipment,Equipment,244.12699999999998
+330,India large cat equipment,Equipment,103.961
+331,India large dog clothes,Clothes,192.569
+332,India medium cat grooming,Grooming,51.336999999999996
+333,India extra large fish bedding,Bedding,148.928
+334,Singapore medium cat medicine,Medicine,240.071
+335,USA small dog toys,Toys,121.095
+336,Germany small dog snack,Snack,238.069
+337,India extra small dog medicine,Medicine,118.963
+338,Germany medium bird equipment,Equipment,155.87
+339,Belgium small dog equipment,Equipment,4.03
+340,Germany small dog toys,Toys,164.541
+341,India extra large dog grooming,Grooming,128.414
+342,India medium rabbit equipment,Equipment,177.476
+343,India large rabbit grooming,Grooming,104.273
+344,USA small dog snack,Snack,91.05199999999999
+345,India extra small cat medicine,Medicine,105.378
+346,Sri Lanka medium bird snack,Snack,94.289
+347,India extra small cat toys,Toys,89.115
+348,India large dog food,Food,162.38299999999998
+349,India medium cat snack,Snack,65.429
+350,India extra small bird accessory,Accessory,183.92399999999998
+351,Turkey small dog medicine,Medicine,49.114
+352,India medium cat accessory,Accessory,81.484
+353,India small hamster snack,Snack,166.088
+354,India large dog bedding,Bedding,233.285
+355,USA medium bird snack,Snack,206.33599999999998
+356,India medium dog food,Food,63.674
+357,Singapore medium cat equipment,Equipment,121.06899999999999
+358,India small dog equipment,Equipment,109.681
+359,India small dog toys,Toys,212.368
+360,Vietnam small fish snack,Snack,201.94199999999998
+361,India small cat medicine,Medicine,189.254
+362,Turkey medium cat snack,Snack,15.821
+363,Turkey small dog equipment,Equipment,244.33499999999998
+364,Turkey small dog snack,Snack,88.15299999999999
+365,India extra large cat bedding,Bedding,140.608
+366,Turkey medium cat toys,Toys,25.805
+367,USA medium cat toys,Toys,102.88199999999999
+368,USA medium cat medicine,Medicine,62.647
+369,Belgium medium cat equipment,Equipment,122.512
+370,Singapore small dog equipment,Equipment,214.123
+371,Singapore extra small cat medicine,Medicine,78.182
+372,Turkey medium cat equipment,Equipment,51.363
+373,Germany small fish snack,Snack,121.94
+374,Belgium medium bird toys,Toys,239.057
+375,India medium cat equipment,Equipment,105.39099999999999
+376,India extra small cat grooming,Grooming,82.81
+377,India small cat food,Food,211.91299999999998
+378,India medium dog medicine,Medicine,2.093
+379,India small rabbit equipment,Equipment,159.016
+380,India extra small bird bedding,Bedding,168.59699999999998
+381,Germany medium cat snack,Snack,167.62199999999999
+382,India extra small dog equipment,Equipment,154.037
+383,Singapore small fish snack,Snack,220.415
+384,Germany medium cat equipment,Equipment,21.749
+385,India large rabbit food,Food,37.661
+386,Turkey medium cat equipment,Equipment,231.959
+387,India extra small dog accessory,Accessory,57.967
+388,Belgium small dog medicine,Medicine,51.583999999999996
+389,India extra small dog supplements,Supplements,182.832
+390,India small dog housing,Housing,18.122
+391,India extra small fish bedding,Bedding,52.376999999999995
+392,India extra large cat toys,Toys,232.46599999999998
+393,India extra small dog accessory,Accessory,109.91499999999999
+394,Germany small dog equipment,Equipment,114.348
+395,India small cat clothes,Clothes,197.834
+396,Turkey small dog toys,Toys,90.844
+397,India small cat supplements,Supplements,46.488
+398,Germany small dog toys,Toys,120.315
+399,Turkey medium cat medicine,Medicine,155.142
+400,India extra large cat housing,Housing,232.60899999999998
+401,India medium rabbit supplements,Supplements,148.317
+402,India medium dog medicine,Medicine,32.227
+403,USA small dog toys,Toys,170.495
+404,India medium dog supplements,Supplements,188.214
+405,India small cat bedding,Bedding,13.286
+406,India extra small cat grooming,Grooming,177.93099999999998
+407,India extra small cat equipment,Equipment,78.13
+408,India extra small cat food,Food,195.117
+409,India small dog supplements,Supplements,185.081
+410,India medium dog accessory,Accessory,40.924
+411,India medium dog medicine,Medicine,98.89099999999999
+412,India small dog clothes,Clothes,96.993
+413,Singapore small dog equipment,Equipment,17.459
+414,Turkey medium cat equipment,Equipment,241.08499999999998
+415,India extra small fish accessory,Accessory,31.927999999999997
+416,India extra small hamster supplements,Supplements,229.29399999999998
+417,Belgium small dog medicine,Medicine,194.402
+418,Singapore medium cat food,Food,243.009
+419,Turkey medium cat snack,Snack,205.49099999999999
+420,Belgium medium cat food,Food,87.80199999999999
+421,India small dog housing,Housing,99.658
+422,Turkey small dog toys,Toys,192.647
+423,Singapore small dog supplements,Supplements,150.16299999999998
+424,Germany small dog equipment,Equipment,47.852999999999994
+425,Singapore medium cat snack,Snack,5.85
+426,Singapore small dog toys,Toys,214.279
+427,Germany medium cat equipment,Equipment,58.253
+428,India medium cat snack,Snack,43.147
+429,India extra small hamster housing,Housing,199.212
+430,Belgium small dog equipment,Equipment,213.95399999999998
+431,India extra small cat toys,Toys,50.934
+432,Belgium medium cat equipment,Equipment,24.102
+433,India extra small dog housing,Housing,252.31699999999998
+434,India extra small dog food,Food,146.70499999999998
+435,India extra large cat snack,Snack,16.848
+436,Singapore small dog medicine,Medicine,206.88199999999998
+437,India medium cat bedding,Bedding,133.835
+438,India small dog accessory,Accessory,168.493
+439,USA small fish toys,Toys,130.208
+440,India extra large dog food,Food,73.658
+441,India medium bird snack,Snack,147.94
+442,India extra small dog toys,Toys,48.074
+443,Germany medium cat medicine,Medicine,251.732
+444,India extra small dog clothes,Clothes,252.694
+445,India large cat food,Food,61.321
+446,India extra large bird food,Food,119.33999999999999
+447,India extra large hamster food,Food,121.16
+448,Turkey small dog snack,Snack,58.903
+449,India small cat grooming,Grooming,151.281
+450,India medium dog equipment,Equipment,35.1
+451,India medium cat clothes,Clothes,127.491
+452,Turkey medium cat snack,Snack,212.18599999999998
+453,India extra small hamster accessory,Accessory,165.91899999999998
+454,Singapore small dog supplements,Supplements,159.25
+455,India small dog equipment,Equipment,160.849
+456,Germany medium cat supplements,Supplements,99.047
+457,India small cat supplements,Supplements,144.56
+458,India large cat housing,Housing,5.239
+459,USA medium bird toys,Toys,167.46599999999998
+460,Vietnam small fish toys,Toys,118.417
+461,India medium cat bedding,Bedding,176.59199999999998
+462,India extra large bird housing,Housing,198.146
+463,India extra large cat accessory,Accessory,118.443
+464,Belgium medium cat snack,Snack,59.214999999999996
+465,Germany small dog snack,Snack,163.72199999999998
+466,India large dog toys,Toys,196.82
+467,India extra large dog accessory,Accessory,128.466
+468,India large cat supplements,Supplements,233.415
+469,India extra small cat equipment,Equipment,84.669
+470,India medium cat food,Food,22.165
+471,Sri Lanka medium bird toys,Toys,66.88499999999999
+472,Singapore small dog equipment,Equipment,24.999
+473,Singapore medium cat food,Food,2.3529999999999998
+474,USA small fish toys,Toys,41.041
+475,India large hamster bedding,Bedding,91.07799999999999
+476,India extra large dog housing,Housing,126.12599999999999
+477,India medium cat equipment,Equipment,154.297
+478,India small dog bedding,Bedding,166.777
+479,Belgium medium cat equipment,Equipment,107.679
+480,India extra large dog equipment,Equipment,180.82999999999998
+481,India small dog toys,Toys,95.55
+482,Germany medium cat equipment,Equipment,199.654
+483,India large cat equipment,Equipment,11.154
+484,India extra small dog equipment,Equipment,22.685
+485,Turkey small fish snack,Snack,70.954
+486,Belgium small dog snack,Snack,19.357
+487,Belgium small cat medicine,Medicine,199.26399999999998
+488,India extra small cat housing,Housing,148.45999999999998
+489,Belgium small dog equipment,Equipment,27.299999999999997
+490,India medium cat medicine,Medicine,115.92099999999999
+491,India small dog snack,Snack,193.297
+492,India medium hamster toys,Toys,103.61
+493,India extra large bird accessory,Accessory,234.64999999999998
+494,Singapore small dog toys,Toys,169.72799999999998
+495,USA small dog snack,Snack,19.227
+496,Belgium medium cat equipment,Equipment,205.92
+497,India extra small dog bedding,Bedding,56.485
+498,India large dog accessory,Accessory,205.68599999999998
+499,India large rabbit toys,Toys,158.71699999999998
+500,India medium fish supplements,Supplements,208.87099999999998
+501,India small cat equipment,Equipment,117.195
+502,India extra large dog equipment,Equipment,177.879
+503,India extra small dog toys,Toys,173.355
+504,USA medium cat snack,Snack,221.50699999999998
+505,Singapore medium bird equipment,Equipment,104.234
+506,Belgium small dog supplements,Supplements,216.32
+507,USA medium bird equipment,Equipment,109.928
+508,India large fish snack,Snack,61.321
+509,India medium bird grooming,Grooming,14.963
+510,India small dog housing,Housing,215.14999999999998
+511,Belgium medium bird equipment,Equipment,129.376
+512,India large dog medicine,Medicine,52.818999999999996
+513,Turkey small dog equipment,Equipment,242.85299999999998
+514,Belgium small dog equipment,Equipment,170.261
+515,India medium cat food,Food,218.47799999999998
+516,Belgium small fish toys,Toys,146.861
+517,USA medium cat medicine,Medicine,241.254
+518,India extra small dog food,Food,137.956
+519,India medium dog supplements,Supplements,23.503999999999998
+520,India medium cat housing,Housing,103.701
+521,India large dog grooming,Grooming,78.78
+522,Singapore small fish toys,Toys,14.69
+523,India large cat food,Food,97.201
+524,Singapore small dog toys,Toys,245.713
+525,India small rabbit medicine,Medicine,45.851
+526,India extra large cat supplements,Supplements,239.447
+527,USA small dog food,Food,148.642
+528,Singapore medium cat snack,Snack,189.28
+529,Germany medium cat food,Food,206.635
+530,India extra large dog snack,Snack,200.005
+531,Singapore small fish snack,Snack,178.191
+532,India large cat grooming,Grooming,145.405
+533,India small dog toys,Toys,247.15599999999998
+534,India small cat supplements,Supplements,120.731
+535,Turkey medium cat equipment,Equipment,148.733
+536,Germany medium cat toys,Toys,69.615
+537,India extra small cat clothes,Clothes,21.45
+538,India small cat medicine,Medicine,245.492
+539,USA small fish snack,Snack,2.275
+540,India extra large dog medicine,Medicine,203.86599999999999
+541,Belgium small dog supplements,Supplements,169.44199999999998
+542,USA small fish equipment,Equipment,208.31199999999998
+543,India extra small bird equipment,Equipment,65.79299999999999
+544,Belgium medium bird snack,Snack,18.355999999999998
+545,India extra large dog bedding,Bedding,46.982
+546,Germany small dog supplements,Supplements,164.45
+547,India extra small cat medicine,Medicine,218.725
+548,Germany medium cat snack,Snack,237.13299999999998
+549,India extra large cat toys,Toys,16.991
+550,Belgium medium cat toys,Toys,180.57
+551,Belgium small dog snack,Snack,14.533999999999999
+552,Singapore small fish toys,Toys,98.28
+553,Singapore small fish toys,Toys,8.84
+554,Germany small dog medicine,Medicine,231.426
+555,USA medium cat toys,Toys,252.551
+556,USA small dog supplements,Supplements,27.884999999999998
+557,India medium hamster medicine,Medicine,162.578
+558,Singapore medium cat toys,Toys,146.523
+559,India extra large cat accessory,Accessory,103.246
+560,Belgium medium cat toys,Toys,165.48999999999998
+561,India large dog housing,Housing,86.268
+562,India large dog grooming,Grooming,128.154
+563,India small cat toys,Toys,165.13899999999998
+564,Singapore small fish snack,Snack,219.17999999999998
+565,India extra large dog food,Food,187.85
+566,Germany small dog equipment,Equipment,100.035
+567,India large dog housing,Housing,44.525
+568,India extra large cat clothes,Clothes,65.572
+569,Belgium small dog snack,Snack,179.62099999999998
+570,India large hamster accessory,Accessory,123.851
+571,Turkey medium cat food,Food,36.309
+572,India extra large cat supplements,Supplements,192.53
+573,Germany medium cat snack,Snack,156.80599999999998
+574,Belgium medium cat supplements,Supplements,105.365
+575,Germany small fish snack,Snack,28.846999999999998
+576,USA small dog medicine,Medicine,207.38899999999998
+577,India small cat equipment,Equipment,121.056
+578,India extra large dog toys,Toys,5.9799999999999995
+579,India extra large rabbit bedding,Bedding,115.817
+580,India medium dog housing,Housing,25.766
+581,India extra large dog housing,Housing,130.208
+582,India extra large cat equipment,Equipment,105.35199999999999
+583,India extra small cat housing,Housing,93.37899999999999
+584,India medium dog equipment,Equipment,123.357
+585,Turkey medium bird equipment,Equipment,185.965
+586,India large dog accessory,Accessory,125.788
+587,Germany medium cat snack,Snack,16.003
+588,Germany small fish toys,Toys,219.869
+589,India extra large dog medicine,Medicine,207.45399999999998
+590,India extra large cat toys,Toys,93.27499999999999
+591,Turkey medium cat equipment,Equipment,192.283
+592,Belgium small dog toys,Toys,171.951
+593,India extra small dog snack,Snack,8.969999999999999
+594,India small dog grooming,Grooming,6.239999999999999
+595,India large cat supplements,Supplements,120.237
+596,India extra large dog clothes,Clothes,38.948
+597,Turkey extra large cat supplements,Supplements,241.917
+598,Turkey small dog equipment,Equipment,230.815
+599,Belgium small dog toys,Toys,17.16
+600,India large cat grooming,Grooming,132.743
+601,India small dog medicine,Medicine,207.87
+602,Belgium small fish snack,Snack,84.825
+603,Germany small dog toys,Toys,178.243
+604,India small bird supplements,Supplements,163.072
+605,India extra large rabbit grooming,Grooming,140.569
+606,India medium fish toys,Toys,244.387
+607,USA medium cat equipment,Equipment,138.93099999999998
+608,India medium dog grooming,Grooming,177.15099999999998
+609,India extra large cat grooming,Grooming,116.05099999999999
+610,India extra small dog grooming,Grooming,108.836
+611,India small dog food,Food,66.508
+612,India small cat bedding,Bedding,20.267
+613,India large fish grooming,Grooming,140.725
+614,Singapore medium cat equipment,Equipment,187.45999999999998
+615,Singapore medium cat toys,Toys,119.37899999999999
+616,Turkey extra large dog food,Food,108.45899999999999
+617,India small cat equipment,Equipment,63.297
+618,Belgium small dog food,Food,187.96699999999998
+619,India extra small cat supplements,Supplements,108.18599999999999
+620,India medium bird food,Food,192.322
+621,India medium cat snack,Snack,158.85999999999999
+622,India extra large dog toys,Toys,72.553
+623,USA medium cat snack,Snack,113.43799999999999
+624,India extra small dog bedding,Bedding,173.953
+625,Singapore medium cat toys,Toys,233.67499999999998
+626,India large cat supplements,Supplements,51.739999999999995
+627,India extra small cat housing,Housing,235.15699999999998
+628,Germany large cat food,Food,31.096
+629,India small cat accessory,Accessory,172.51
+630,India large cat equipment,Equipment,57.199999999999996
+631,India extra large dog equipment,Equipment,176.488
+632,India medium cat food,Food,45.942
+633,Belgium small dog food,Food,133.432
+634,USA small dog supplements,Supplements,99.77499999999999
+635,India large cat accessory,Accessory,179.868
+636,USA medium cat toys,Toys,72.85199999999999
+637,India large dog housing,Housing,133.861
+638,India extra small dog accessory,Accessory,18.512
+639,India small cat food,Food,133.35399999999998
+640,India medium dog bedding,Bedding,70.07
+641,India small hamster grooming,Grooming,110.33099999999999
+642,India extra small fish grooming,Grooming,64.714
+643,India medium dog medicine,Medicine,93.6
+644,India small dog clothes,Clothes,142.285
+645,Germany medium bird equipment,Equipment,142.623
+646,India large cat bedding,Bedding,110.734
+647,India small cat snack,Snack,108.92699999999999
+648,USA small dog food,Food,229.021
+649,India medium cat supplements,Supplements,140.829
+650,India extra large cat equipment,Equipment,159.35399999999998
+651,Turkey medium bird snack,Snack,231.673
+652,Turkey small fish toys,Toys,177.78799999999998
+653,India small cat supplements,Supplements,196.71599999999998
+654,Turkey medium cat supplements,Supplements,11.972999999999999
+655,Germany medium bird toys,Toys,107.731
+656,India large cat grooming,Grooming,242.34599999999998
+657,Turkey small dog toys,Toys,113.737
+658,Germany large dog food,Food,247.24699999999999
+659,USA medium cat equipment,Equipment,239.45999999999998
+660,Singapore medium cat equipment,Equipment,93.314
+661,Belgium small dog toys,Toys,103.818
+662,India large dog toys,Toys,66.3
+663,India small cat bedding,Bedding,148.408
+664,India extra large cat grooming,Grooming,189.111
+665,Turkey small dog equipment,Equipment,223.35299999999998
+666,India extra small rabbit bedding,Bedding,207.051
+667,India small dog medicine,Medicine,154.04999999999998
+668,India large hamster medicine,Medicine,165.802
+669,Turkey medium cat toys,Toys,163.709
+670,India extra large dog toys,Toys,166.244
+671,India medium dog grooming,Grooming,197.899
+672,India small dog accessory,Accessory,1.521
+673,India small bird clothes,Clothes,240.344
+674,India small dog food,Food,119.17099999999999
+675,India small dog bedding,Bedding,107.26299999999999
+676,Belgium small fish snack,Snack,59.41
+677,India large cat toys,Toys,207.909
+678,India large cat food,Food,14.988999999999999
+679,Singapore medium cat equipment,Equipment,78.559
+680,Germany medium bird snack,Snack,147.81
+681,Germany small fish equipment,Equipment,4.5889999999999995
+682,India medium dog toys,Toys,165.62
+683,USA medium cat supplements,Supplements,44.369
+684,Germany medium cat toys,Toys,240.136
+685,USA medium cat snack,Snack,157.04
+686,Singapore small dog snack,Snack,238.433
+687,India extra small cat clothes,Clothes,154.04999999999998
+688,India medium cat toys,Toys,228.605
+689,India large cat toys,Toys,232.7
+690,Vietnam small fish snack,Snack,82.84899999999999
+691,Vietnam small fish snack,Snack,178.815
+692,Singapore small fish equipment,Equipment,31.473
+693,India extra small dog housing,Housing,4.407
+694,India small fish housing,Housing,116.597
+695,Germany small dog snack,Snack,217.63299999999998
+696,USA small dog equipment,Equipment,243.63299999999998
+697,India small cat accessory,Accessory,166.894
+698,India small rabbit accessory,Accessory,209.313
+699,India medium dog clothes,Clothes,6.487
+700,India medium dog bedding,Bedding,203.476
+701,Germany medium bird toys,Toys,12.051
+702,India extra large dog clothes,Clothes,158.00199999999998
+703,Belgium medium bird toys,Toys,30.055999999999997
+704,USA medium cat equipment,Equipment,139.386
+705,India small fish equipment,Equipment,104.50699999999999
+706,Turkey small fish snack,Snack,46.318999999999996
+707,India extra small cat bedding,Bedding,141.414
+708,India small cat toys,Toys,235.00099999999998
+709,India extra large dog housing,Housing,68.666
+710,India medium cat housing,Housing,143.533
+711,USA small dog snack,Snack,248.93699999999998
+712,India extra large fish accessory,Accessory,197.73
+713,India large cat snack,Snack,30.173
+714,USA small dog toys,Toys,220.428
+715,India extra small dog supplements,Supplements,104.845
+716,India medium cat toys,Toys,215.462
+717,India large dog food,Food,7.579
+718,India extra small cat supplements,Supplements,54.404999999999994
+719,USA small dog snack,Snack,40.092
+720,India large cat accessory,Accessory,165.34699999999998
+721,India medium cat housing,Housing,219.869
+722,India medium dog food,Food,27.663999999999998
+723,India large cat medicine,Medicine,178.789
+724,India extra small cat clothes,Clothes,9.203999999999999
+725,Germany small dog equipment,Equipment,131.339
+726,USA medium bird snack,Snack,100.86699999999999
+727,India extra large cat medicine,Medicine,206.518
+728,India extra small dog bedding,Bedding,13.507
+729,Germany small fish toys,Toys,71.36999999999999
+730,Singapore medium bird snack,Snack,19.721
+731,India extra small dog food,Food,100.80199999999999
+732,India small dog bedding,Bedding,204.958
+733,India extra large dog clothes,Clothes,243.20399999999998
+734,Turkey small dog food,Food,143.58499999999998
+735,Belgium medium cat toys,Toys,29.705
+736,India large dog medicine,Medicine,95.28999999999999
+737,Belgium small fish equipment,Equipment,82.901
+738,India extra large dog medicine,Medicine,183.807
+739,Belgium small dog equipment,Equipment,14.546999999999999
+740,India extra small dog grooming,Grooming,61.074
+741,USA small fish equipment,Equipment,199.498
+742,India medium cat clothes,Clothes,47.515
+743,India medium dog grooming,Grooming,34.372
+744,India extra small cat equipment,Equipment,207.272
+745,India large dog accessory,Accessory,192.387
+746,Singapore medium cat supplements,Supplements,37.128
+747,India large cat grooming,Grooming,108.70599999999999
+748,India medium fish clothes,Clothes,165.77599999999998
+749,India small dog bedding,Bedding,48.958
+750,India extra small rabbit snack,Snack,206.765
+751,Sri Lanka medium bird equipment,Equipment,0.351
+752,Germany medium cat toys,Toys,184.28799999999998
+753,India large cat clothes,Clothes,61.802
+754,India extra large cat housing,Housing,56.875
+755,India extra small cat accessory,Accessory,190.632
+756,India small cat housing,Housing,104.728
+757,Turkey small fish equipment,Equipment,163.917
+758,India extra small cat food,Food,231.816
+759,Belgium small dog toys,Toys,148.863
+760,India small dog medicine,Medicine,94.22399999999999
+761,Germany small dog equipment,Equipment,31.72
+762,India small dog snack,Snack,155.506
+763,Vietnam small fish equipment,Equipment,204.035
+764,India extra large cat snack,Snack,120.08099999999999
+765,Singapore small dog equipment,Equipment,56.705999999999996
+766,Vietnam small fish equipment,Equipment,222.95
+767,Singapore small dog snack,Snack,227.10999999999999
+768,India extra small dog medicine,Medicine,169.39
+769,India small dog equipment,Equipment,52.025999999999996
+770,Singapore small dog snack,Snack,62.803
+771,Singapore medium bird toys,Toys,87.88
+772,Germany small dog snack,Snack,193.739
+773,Belgium small fish equipment,Equipment,248.58599999999998
+774,India small cat medicine,Medicine,216.697
+775,India extra large dog medicine,Medicine,77.298
+776,Belgium small fish toys,Toys,120.354
+777,India extra small dog accessory,Accessory,245.154
+778,India small dog grooming,Grooming,247.897
+779,India medium cat grooming,Grooming,200.72
+780,India extra large cat supplements,Supplements,53.573
+781,Belgium medium cat toys,Toys,109.161
+782,Singapore extra small dog medicine,Medicine,129.051
+783,India extra small dog snack,Snack,94.50999999999999
+784,Turkey medium cat toys,Toys,108.771
+785,USA small dog equipment,Equipment,40.208999999999996
+786,India large dog medicine,Medicine,48.099999999999994
+787,Turkey small dog supplements,Supplements,14.443
+788,Germany small dog food,Food,157.65099999999998
+789,Belgium small dog toys,Toys,249.70399999999998
+790,India medium dog bedding,Bedding,152.20399999999998
+791,India extra large cat bedding,Bedding,192.933
+792,Germany small fish toys,Toys,178.308
+793,India small dog toys,Toys,12.219999999999999
+794,India medium cat accessory,Accessory,208.325
+795,India extra small cat bedding,Bedding,41.184
+796,Belgium medium cat snack,Snack,217.737
+797,Turkey small fish snack,Snack,225.095
+798,India large dog snack,Snack,183.22199999999998
+799,Singapore small dog snack,Snack,140.296
+800,Belgium medium cat equipment,Equipment,56.809999999999995
+801,India small dog bedding,Bedding,138.112
+802,India large dog toys,Toys,208.065
+803,India medium cat medicine,Medicine,220.94799999999998
+804,India extra large dog grooming,Grooming,76.505
+805,India extra large cat medicine,Medicine,98.74799999999999
+806,Germany small dog food,Food,229.476
+807,USA small fish snack,Snack,113.893
+808,India extra large dog snack,Snack,217.07399999999998
+809,India medium cat housing,Housing,246.142
+810,India large dog clothes,Clothes,121.082
+811,India extra small cat accessory,Accessory,8.982999999999999
+812,Turkey small dog equipment,Equipment,12.285
+813,Turkey small dog snack,Snack,201.59099999999998
+814,India small cat housing,Housing,237.13299999999998
+815,Sri Lanka medium bird snack,Snack,244.803
+816,Turkey small dog snack,Snack,70.902
+817,Turkey small dog supplements,Supplements,156.182
+818,Singapore small dog equipment,Equipment,12.558
+819,India extra large dog toys,Toys,58.513
+820,India extra large rabbit accessory,Accessory,89.14099999999999
+821,India small dog food,Food,44.498999999999995
+822,USA medium bird toys,Toys,120.26299999999999
+823,Belgium small dog snack,Snack,153.881
+824,Belgium medium cat snack,Snack,122.408
+825,Singapore medium cat toys,Toys,30.264
+826,India extra small cat medicine,Medicine,139.75
+827,India extra small dog food,Food,70.13499999999999
+828,USA small dog snack,Snack,94.25
+829,Germany medium cat supplements,Supplements,27.663999999999998
+830,India small hamster food,Food,180.75199999999998
+831,India extra small dog snack,Snack,66.404
+832,Turkey medium cat toys,Toys,117.585
+833,Turkey extra large cat food,Food,140.933
+834,India extra small dog supplements,Supplements,130.143
+835,India extra small fish medicine,Medicine,12.051
+836,Belgium medium cat medicine,Medicine,95.589
+837,India small cat clothes,Clothes,237.99099999999999
+838,India large cat medicine,Medicine,190.333
+839,India small cat snack,Snack,156.143
+840,USA medium bird equipment,Equipment,191.516
+841,Germany large cat medicine,Medicine,102.063
+842,Singapore extra small cat food,Food,228.631
+843,India large cat supplements,Supplements,149.344
+844,India extra large cat clothes,Clothes,140.66
+845,India extra large dog supplements,Supplements,77.41499999999999
+846,India medium dog clothes,Clothes,161.53799999999998
+847,India extra small cat bedding,Bedding,238.81
+848,Germany small dog snack,Snack,113.711
+849,India large dog supplements,Supplements,82.693
+850,India large dog clothes,Clothes,67.52199999999999
+851,India small dog equipment,Equipment,199.771
+852,Germany medium cat food,Food,192.153
+853,India extra small cat toys,Toys,128.999
+854,India extra small cat grooming,Grooming,150.22799999999998
+855,India large rabbit supplements,Supplements,14.599
+856,India extra small fish snack,Snack,203.671
+857,USA small dog toys,Toys,229.593
+858,India extra large cat clothes,Clothes,100.1
+859,India large dog bedding,Bedding,104.75399999999999
+860,Turkey small dog equipment,Equipment,235.49499999999998
+861,Germany medium cat snack,Snack,212.53699999999998
+862,India small hamster clothes,Clothes,79.98899999999999
+863,Belgium medium bird toys,Toys,176.384
+864,USA medium cat toys,Toys,170.261
+865,India extra small cat food,Food,36.022999999999996
+866,India small cat food,Food,133.575
+867,India large rabbit clothes,Clothes,30.250999999999998
+868,Germany medium bird equipment,Equipment,234.16899999999998
+869,India extra large hamster housing,Housing,39.052
+870,USA medium cat supplements,Supplements,64.324
+871,Belgium medium cat snack,Snack,61.086999999999996
+872,Germany medium cat toys,Toys,10.283
+873,India medium cat equipment,Equipment,129.844
+874,Germany medium bird snack,Snack,146.926
+875,India medium hamster snack,Snack,174.07
+876,USA medium cat snack,Snack,224.11999999999998
+877,India large dog bedding,Bedding,199.147
+878,Singapore small dog toys,Toys,171.84699999999998

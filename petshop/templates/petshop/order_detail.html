@@ -1,0 +1,89 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Order - {{ porder.order_id }}
+{% endblock %}
+
+{% block content %}
+    <article>
+        <div class="row">
+            <div class="offset-by-two eight columns">
+                <h2>{{ porder }}</h2>
+                <ul class="inline">
+                {% if perms.petshop.change_porder %}
+                    <li>
+                        <a
+                            href="{{ porder.get_update_url }}"
+                            class="button button-primary">
+                            Edit Order
+                        </a>
+                    </li>
+                {% endif %}
+                {% if perms.petshop.delete_porder %}
+                    <li>
+                        <a
+                            href="{{ porder.get_delete_url }}"
+                            class="button button-primary">
+                            Delete Order
+                        </a>
+                    </li>
+                {% endif %}
+                </ul>
+                <section>
+                    <h3>Item List</h3>
+                    {% if perms.petshop.add_contains %}
+                        <a
+                            href="{% url 'petshop_contains_create_url' %}"
+                            class="button button-primary">
+                            Add Supply Items to Order
+                        </a>
+                    {% endif %}
+                    <table>
+                        <tr>
+                            <th>Item Name</th>
+                            <th>Item Price</th>
+                            <th>Quantity</th>
+                            <th>Action</th>
+                        </tr>
+                        {% for contains in contains_list %}
+                        <tr>
+                            <td>
+                                <a href="{{ contains.item.get_absolute_url }}">{{ contains.item }}</a>
+                            </td>
+                            <td>
+                                {{ contains.item.price|floatformat:2 }}
+                            </td>
+                            <td>{{ contains.quantity }}</td>
+                            <td>
+                                <a href="{{ contains.get_update_url }}">
+                                    Edit
+                                </a>
+                                -
+                                <a href="{{ contains.get_delete_url }}">
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </section>
+                <section>
+                    <table>
+                        <tr>
+                            <th>Total Price:</th>
+                            <td>{{ porder.get_order_total|floatformat:2 }}</td>
+                        </tr>
+                        <tr>
+                            <th>Customer:</th>
+                            <td><a href="{{ customer.get_absolute_url }}">{{ customer }}</a></td>
+                        </tr>
+                        <tr>
+                            <th>Transaction Time:</th>
+                            <td>{{ porder.transaction_time }}</td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+        </div>
+    </article>
+{% endblock %}

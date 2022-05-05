@@ -1,0 +1,26 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Error Deleting Supply Item
+{% endblock %}
+
+{% block content %}
+    <div>
+        <h2>Error Deleting Supply Item</h2>
+        <p>
+            You may not delete supply item {{ item }}. This
+            supply item is currently existed in the following
+            orders:
+        </p>
+
+        <ul>
+        {% for order in contains %}
+            <li><a href="{{ order.order.get_absolute_url }}">{{ order.order }}</a></li>
+        {% endfor %}
+        </ul>
+
+        <p>
+            Return to <a href="{% url 'petshop_item_list_url' %}">Supply Item List</a>.
+        </p>
+    </div>
+{% endblock %}

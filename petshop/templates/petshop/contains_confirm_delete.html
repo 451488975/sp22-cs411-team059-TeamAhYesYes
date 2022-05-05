@@ -1,0 +1,24 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Delete Item From Order
+{% endblock %}
+
+{% block content %}
+    <form
+        action="{{ contains.get_delete_url }}"
+        method="post">
+        {% csrf_token %}
+        <p>
+            Are you sure that you want to delete
+            this item {{ contains.item }}?
+        </p>
+        <a href="{{ contains.order.get_absolute_url }}"
+           class="button button-primary">
+            Cancel
+        </a>
+        <button type="submit" class="button button-primary">
+            Delete Item From Order
+        </button>
+    </form>
+{% endblock %}

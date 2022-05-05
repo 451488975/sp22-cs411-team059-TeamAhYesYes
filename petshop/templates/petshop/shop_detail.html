@@ -1,0 +1,47 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Shop - {{ shop }}
+{% endblock %}
+
+{% block content %}
+    <article>
+        <div class="row">
+            <div class="offset-by-two eight columns">
+                <h2>{{ shop }}</h2>
+                <ul class="inline">
+                {% if perms.petshop.change_shop %}
+                    <li>
+                        <a
+                            href="{{ shop.get_update_url }}"
+                            class="button button-primary">
+                            Edit Shop
+                        </a>
+                    </li>
+                {% endif %}
+                {% if perms.petshop.delete_shop %}
+                    <li>
+                        <a
+                            href="{{ shop.get_delete_url }}"
+                            class="button button-primary">
+                            Delete Shop
+                        </a>
+                    </li>
+                {% endif %}
+                </ul>
+                <section>
+                    <table>
+                        <tr>
+                            <th>Shop Name:</th>
+                            <td>{{ shop.shop_name }}</td>
+                        </tr>
+                        <tr>
+                            <th>Shop Address:</th>
+                            <td>{{ shop.shop_address }}</td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+        </div>
+    </article>
+{% endblock %}

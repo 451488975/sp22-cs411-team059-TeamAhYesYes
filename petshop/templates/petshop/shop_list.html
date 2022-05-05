@@ -1,0 +1,30 @@
+{% extends 'petshop/base.html' %}
+
+{% block title %}
+    Shop List
+{% endblock %}
+
+{% block create_button %}
+    {% if perms.petshop.add_shop %}
+    <a
+        href="{% url 'petshop_shop_create_url' %}"
+        class="button button-primary">
+        Create New Shop
+    </a>
+    {% endif %}
+{% endblock %}
+
+{% block org_content %}
+    <h2>Shop List</h2>
+    <ul>
+    {% for shop in shop_list %}
+        <li>
+            <a href="{{ shop.get_absolute_url }}">
+                {{ shop }}
+            </a>
+        </li>
+    {% empty %}
+        <li><em>There are currently no shops available.</em></li>
+    {% endfor %}
+    </ul>
+{% endblock %}
